@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;valid-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Valid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7350579499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launches the application",
+            "match": {
+              "location": "tests\\step-definitions\\loginSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4474628299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters username and password",
+            "match": {
+              "location": "tests\\step-definitions\\loginSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 852981700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should see dashboard",
+            "match": {
+              "location": "tests\\step-definitions\\loginSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 875800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 172661400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "tests\\features\\login.feature"
+  }
+]
